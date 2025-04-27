@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>AIDM7350 Group Project</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- logo -->
+    <link href="img/logo.jpg" rel="icon" />
+
+    <!-- Latest Font Awesome CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/resources_style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border position-relative txt-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      ></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-3">
+            <a class="text-white px-2" href="tel:+0123456789"
+              ><i class="fa fa-phone-alt txt-primary me-2"></i>+012 345 6789</a
+            >
+            <a class="text-white px-2" href="mailto:info@example.com"
+              ><i class="fa fa-envelope-open txt-primary me-2"></i
+              >24462640@life.hkbu.edu.hk</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center">
+            <a class="btn btn-sm-square btn-outline-body me-1" href="https://www.facebook.com/HongKongBaptistUniversity"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-sm-square btn-outline-body me-1" href="https://www.linkedin.com/school/hong-kong-baptist-university/posts/?feedView=all"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-sm-square btn-outline-body me-1" href="https://x.com/hkbaptistu">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/hkbaptistu/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+        <img class="me-3" src="img/logo.png" alt="logo" />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Home</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="index.html" class="dropdown-item">Home</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Main concepts</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="about llm.html" class="dropdown-item">About LLM</a>
+              <a href="about chatbot.html" class="dropdown-item">About Chatbot</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >News & Research</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="Relevant News.html" class="dropdown-item active">Relevant News</a>
+              <a href="Research Findings.html" class="dropdown-item">Research Findings</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Resources</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="LLMsource.html" class="dropdown-item">Resources</a>
+            </div>
+          </div>
+        </div>
+        <a
+          href="chatbottest.html"
+          class="btn btn-outline-body py-2 px-4"
+          style="margin-left: 26px"
+          >Chatbots</a
+        >
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-header py-5 mb-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <h1 class="display-1 text-white animated slideInDown">Resources</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb text-uppercase mb-0">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item txt-primary" aria-current="page">
+              Resources
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Resources -->
+    <section class="py-5">
+      <div class="container">
+        <ul
+          class="nav nav-tabs justify-content-center mb-4"
+          id="projectTabs"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="all-resource-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#all-resource"
+              type="button"
+              role="tab"
+              aria-controls="all-resource"
+              aria-selected="true"
+            >
+              AI info
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="llms-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#llms"
+              type="button"
+              role="tab"
+              aria-controls="llms"
+              aria-selected="false"
+            >
+              LLMs
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="chatbots-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#chatbots"
+              type="button"
+              role="tab"
+              aria-controls="chatbots"
+              aria-selected="false"
+            >
+              Chatbots
+            </button>
+          </li>
+        </ul>
+
+        <!-- Tabs Content -->
+        <div class="tab-content" id="projectTabsContent">
+          <!-- All Resource -->
+          <div
+            class="tab-pane fade show active"
+            id="all-resource"
+            role="tabpanel"
+            aria-labelledby="all-resource-tab"
+          >
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <img
+                    src="img/resources1.jpg"
+                    class="card-img-top"
+                    alt="Project 1"
+                  />
+                  <!-- 备注：卡片内容中的图片 -->
+                  <div class="card-body">
+                    <h5 class="card-title">Comparative Analysis of Chatbots</h5>
+                    <p class="card-text">
+                      A study comparing chatbots using large language models for web development tasks.
+                    </p>
+                    <a href="https://www.mdpi.com/2076-3417/14/21/10048" class="btn btn-inline-body btn-sm" target="_blank">View Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <img
+                    src="img/resources2.jpg"
+                    class="card-img-top"
+                    alt="Project 2"
+                  />
+                  <!-- 备注：卡片内容中的图片 -->
+                  <div class="card-body">
+                    <h5 class="card-title">WotNot Blog</h5>
+                    <p class="card-text">
+                      A comprehensive guide to large language model chatbots, including model selection and tools.
+                    </p>
+                    <a href="https://wotnot.io/blog/llm-chatbot" class="btn btn-inline-body btn-sm" target="_blank">View Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <img
+                    src="img/resources3.jpg"
+                    class="card-img-top"
+                    alt="Project 3"
+                  />
+                  <!-- 备注：卡片内容中的图片 -->
+                  <div class="card-body">
+                    <h5 class="card-title">TechTarget Article</h5>
+                    <p class="card-text">
+                      An overview of the best large language models in 2025, including BERT, Claude, and GPT series.
+                    </p>
+                    <a href="https://www.techtarget.com/whatis/feature/12-of-the-best-large-language-models" class="btn btn-inline-body btn-sm" target="_blank">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- LLMs -->
+          <div
+            class="tab-pane fade"
+            id="llms"
+            role="tabpanel"
+            aria-labelledby="llms-tab"
+          >
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Llama Series</h5>
+                    <p class="card-text">
+                      Open-source large language models developed by Meta, available in various parameter sizes for diverse applications.
+                    </p>
+                    <a
+                      href="https://www.llama.com/"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">StableLM</h5>
+                    <p class="card-text">
+                      Open-source language models developed by Stability AI, supporting multiple languages and suitable for tasks of various scales.
+                    </p>
+                    <a
+                      href="https://stability.ai/"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">OpenAI</h5>
+                    <p class="card-text">
+                      A leading AI research and deployment company, known for its GPT series and other advanced AI technologies.
+                    </p>
+                    <a
+                      href="https://openai.com/"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">DeepSeek</h5>
+                    <p class="card-text">
+                      A cutting-edge AI platform offering advanced search and analysis capabilities for various industries.
+                    </p>
+                    <a
+                      href="https://www.deepseek.com/"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Gemini</h5>
+                    <p class="card-text">
+                      Google's next-generation AI model designed to integrate advanced reasoning and memory capabilities.
+                    </p>
+                    <a
+                      href="https://gemini.google.com/"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Qwen</h5>
+                    <p class="card-text">
+                      Alibaba's AI chatbot platform offering intelligent conversational capabilities for businesses.
+                    </p>
+                    <a
+                      href="https://chat.qwen.ai/"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Anthropic</h5>
+                    <p class="card-text">
+                      Creator of Claude AI assistant, focused on developing safe and ethical AI systems through constitutional AI approach.
+                    </p>
+                    <a
+                      href="https://www.anthropic.com/app-unavailable-in-region"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Kling AI</h5>
+                    <p class="card-text">
+                      A leading Chinese AI platform providing intelligent dialogue and natural language processing services with multi-language support.
+                    </p>
+                    <a
+                      href="https://app.klingai.com/cn/"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">DouBao AI</h5>
+                    <p class="card-text">
+                      ByteDance's AI assistant offering intelligent dialogue, text creation, code programming and various functional services.
+                    </p>
+                    <a
+                      href="https://www.doubao.com/chat/"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chatbots -->
+          <div
+            class="tab-pane fade"
+            id="chatbots"
+            role="tabpanel"
+            aria-labelledby="chatbots-tab"
+          >
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Rasa</h5>
+                    <p class="card-text">
+                      An open-source framework for building custom AI chatbots, suitable for developers.
+                    </p>
+                    <a
+                      href="https://rasa.com/"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                    <!-- 备注：卡片内容中的图片（如果有）应放置在此处 -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">ChatBotApp</h5>
+                    <p class="card-text">
+                      GPT-3.5 based intelligent dialogue platform providing smooth natural language interaction and multi-scenario application support.
+                    </p>
+                    <a
+                      href="https://chat.chatbotapp.ai/?model=gpt-3.5"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Perplexity AI</h5>
+                    <p class="card-text">
+                      An AI-powered search and discovery platform that provides accurate, real-time information with cited sources.
+                    </p>
+                    <a
+                      href="https://www.perplexity.ai/"
+                      class="btn btn-inline-body btn-sm"
+                      target="_blank"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+
+    <!-- Voting Section Start -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="text-center mb-4">Ethical Discussion: Regulation and Challenges of AI Development</h2>
+            <p class="text-center mb-4">Participate in the poll to understand community opinions and explore the ethical boundaries of AI development together.</p>
+            <form id="voteForm">
+              <div class="mb-3" id="voteOptions">
+                <label for="voteOption" class="form-label text-center d-block">Which area of AI development do you think needs the most regulation?</label>
+                <input type="radio" class="btn-check" name="voteOption" id="option1" value="dataPrivacy">
+                <label class="btn btn-outline-primary w-75 mb-4 mx-auto d-block" for="option1">Data Privacy and Security<br><small>Protect user data from misuse and ensure the security and privacy of AI systems.</small></label>
+
+                <input type="radio" class="btn-check" name="voteOption" id="option2" value="aiBias">
+                <label class="btn btn-outline-primary w-75 mb-4 mx-auto d-block" for="option2">AI Bias and Discrimination<br><small>Reduce bias in algorithms to ensure fair and just AI decisions without discriminating against specific groups.</small></label>
+
+                <input type="radio" class="btn-check" name="voteOption" id="option3" value="employmentImpact">
+                <label class="btn btn-outline-primary w-75 mb-4 mx-auto d-block" for="option3">Employment Impact<br><small>Address employment changes caused by AI automation and protect workers' rights and social stability.</small></label>
+
+                <input type="radio" class="btn-check" name="voteOption" id="option4" value="securityRisk">
+                <label class="btn btn-outline-primary w-75 mb-4 mx-auto d-block" for="option4">Security Risks<br><small>Prevent AI systems from being misused for fraud, generating harmful content, or conducting cyberattacks.</small></label>
+              </div>
+              <button type="submit" class="btn btn-primary w-75 mb-3 d-block mx-auto">Submit Vote</button>
+            </form>
+            <div id="voteResults" style="display: none;">
+              <!-- Voting results display area -->
+              <div class="w-75 mx-auto">
+                <div class="progress-title text-center">Data Privacy and Security</div>
+                <div class="progress mb-2 mt-3" id="dataPrivacyProgress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress-title text-center">AI Bias and Discrimination</div>
+                <div class="progress mb-2 mt-3" id="aiBiasProgress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress-title text-center">Employment Impact</div>
+                <div class="progress mb-2 mt-3" id="employmentImpactProgress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress-title text-center">Security Risks</div>
+                <div class="progress mb-2 mt-3" id="securityRiskProgress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+            <p class="text-center mt-3" id="voteCount">A total of <span id="voteCountNumber">0</span> people have participated in the vote · Last updated on <span id="voteUpdateTime"></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Voting Section End -->
+
+  <!-- Footer Start -->
+  <section>
+    <div
+      class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row footer-content">
+          <div class="col-lg-4 col-md-6">
+            <h3 class="text-light mb-4">About Us</h3>
+            <p class="mb-2 text-light">
+              We are students of the MSc in AIDM program, and the information about our group members is as follows:
+              <br/>
+              GUO Bao, 24462527
+              <br/>
+              WU Qiong, 24465992
+              <br/>
+              LIU Jiwu, 24448923
+              <br/>
+              XIE Yi, 24462640
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-6 text-center text-md-start mb-3 mb-md-0 text-light"
+            >
+              &copy; <a href="#">AIDM7350 Group Project</a>
+            </div>
+            <div class="col-md-6 text-center text-light text-md-end">
+               <a href="#">Back to Top</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-inline-body btn-lg-square back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+
+    <!-- Font Awesome Icon -->
+    <script
+      src="https://kit.fontawesome.com/6259f20fe9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Load the jQuery library, version 3.4.1 -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- Load the compiled Bootstrap JavaScript library -->
+    <script src="js1/bootstrap.min.js"></script>
+
+    <!-- Load the WOW.js library for revealing animations when scrolling -->
+    <script src="lib/wow/wow.min.js"></script>
+
+    <!-- Load the Easing library to add custom easing effects to animations -->
+    <script src="lib/easing/easing.min.js"></script>
+
+    <!-- Load the Waypoints library to trigger functions when you scroll to a certain point -->
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Load the CounterUp library for animated counting numbers -->
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Load the Owl Carousel library for creating responsive carousel sliders -->
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Load the Moment.js library for date and time manipulation -->
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+
+    <!-- Load the Moment Timezone library for handling time zone data with Moment.js -->
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+
+    <!-- Load the Tempus Dominus Bootstrap 4 library for creating date-time pickers -->
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="js1/main.js"></script>
+    <script>
+      // 投票数据存储对象
+      const voteData = {
+        dataPrivacy: 0,
+        aiBias: 0,
+        employmentImpact: 0,
+        securityRisk: 0,
+      };
+
+      // 页面加载时初始化投票数据
+      document.addEventListener('DOMContentLoaded', () => {
+        const storedData = localStorage.getItem('voteData');
+        if (storedData) {
+          Object.assign(voteData, JSON.parse(storedData));
+          updateVoteResults();
+        }
+      });
+
+      // 更新投票结果显示
+      function updateVoteResults() {
+        const totalVotes = Object.values(voteData).reduce((sum, count) => sum + count, 0);
+        for (const [key, value] of Object.entries(voteData)) {
+          const progress = document.getElementById(`${key}Progress`);
+          const percentage = totalVotes > 0 ? (value / totalVotes) * 100 : 0;
+          progress.querySelector('.progress-bar').style.width = `${percentage}%`;
+          progress.querySelector('.progress-bar').setAttribute('aria-valuenow', percentage);
+        }
+        document.getElementById('voteCountNumber').textContent = totalVotes;
+        document.getElementById('voteUpdateTime').textContent = new Date().toLocaleString();
+        document.getElementById('voteResults').style.display = 'block';
+      }
+
+      // 处理投票表单提交
+      document.getElementById('voteForm').addEventListener('submit', (event) => {
+        event.preventDefault();
+        const selectedOption = document.querySelector('input[name="voteOption"]:checked');
+        if (!selectedOption) {
+          alert('请选择一个选项进行投票！');
+          return;
+        }
+        const optionValue = selectedOption.value;
+        voteData[optionValue]++;
+        localStorage.setItem('voteData', JSON.stringify(voteData));
+        updateVoteResults();
+        document.getElementById('voteForm').reset();
+      });
+
+      // 处理重置投票按钮点击
+      document.getElementById('resetVote').addEventListener('click', () => {
+        localStorage.removeItem('voteData');
+        Object.keys(voteData).forEach((key) => (voteData[key] = 0));
+        document.getElementById('voteResults').style.display = 'none';
+        document.getElementById('voteForm').reset();
+        document.getElementById('voteCountNumber').textContent = '0';
+        document.getElementById('voteUpdateTime').textContent = '';
+        alert('投票已重置，您可以重新选择选项并投票！');
+      });
+    </script>
+  </body>
+</html>

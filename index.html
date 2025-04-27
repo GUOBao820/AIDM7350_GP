@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>AIDM7350 Group Project</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- logo -->
+    <link href="img/logo.jpg" rel="icon" />
+
+    <!-- Latest Font Awesome CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/homepage_style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border position-relative txt-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      ></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-3">
+            <a class="text-white px-2" href="tel:+0123456789"
+              ><i class="fa fa-phone-alt txt-primary me-2"></i>+012 345 6789</a
+            >
+            <a class="text-white px-2" href="mailto:info@example.com"
+              ><i class="fa fa-envelope-open txt-primary me-2"></i
+              >24465992@life.hkbu.edu.hk</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center">
+            <a class="btn btn-sm-square btn-outline-body me-1" href="https://www.facebook.com/HongKongBaptistUniversity"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-sm-square btn-outline-body me-1" href="https://www.linkedin.com/school/hong-kong-baptist-university/posts/?feedView=all"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-sm-square btn-outline-body me-1" href="https://x.com/hkbaptistu">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/hkbaptistu/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+        <img class="me-3" src="img/logo.png" alt="logo" />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Home</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="index.html" class="dropdown-item">Home</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Main concepts</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="about llm.html" class="dropdown-item">About LLM</a>
+              <a href="about chatbot.html" class="dropdown-item">About Chatbot</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >News & Research</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="Relevant News.html" class="dropdown-item active">Relevant News</a>
+              <a href="Research Findings.html" class="dropdown-item">Research Findings</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Resources</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="LLMsource.html" class="dropdown-item">Resources</a>
+            </div>
+          </div>
+        </div>
+        <a
+          href="chatbottest.html"
+          class="btn btn-outline-body py-2 px-4"
+          style="margin-left: 26px"
+          >Chatbots</a
+        >
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+<!-- 1.Static Banner Start -->
+<section>
+  <div class="container-fluid p-0 pb-5">
+    <div class="position-relative">
+      <!-- Banner图片 -->
+      <img class="img-fluid w-100" src="img/carousel-1.jpg" alt="AI Chat Banner">
+      
+      <!-- 文字内容层 -->
+      <div class="position-absolute w-100" style="top: 50%; transform: translateY(-50%);">
+        <div class="container">
+          <div class="row justify-content-start">
+            <div class="col-10 col-lg-8">  <!-- 从col-lg-10改为col-lg-8缩短宽度 -->
+              <h2 class="display-4 text-white mb-3">
+                AI Chat Era: Discover LLMs & Chatbots
+              </h2>
+              <p class="fs-5 fw-medium text-white mb-4" style="max-width: 600px;">  <!-- 添加max-width限制 -->
+                This site offers original content and resources to help you grasp the technology, 
+                applications, and debates of LLMs and chatbots, keeping you at the cutting edge 
+                of the fast-evolving AI landscape.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+        <!-- 2.三个入口 Start -->
+        <section>
+          <div class="container-xxl py-5">
+            <div class="container">
+              <div
+                class="text-center mx-auto mb-5 wow fadeInUp"
+                data-wow-delay="0.1s"
+                style="max-width: 700px"
+              >
+                <div class="section-title">
+                  <h6>Our Websites</h6>
+                  <h2 class="mb-4">
+                    We Provide Three LLM Exploration Portals
+                  </h2>
+                </div>
+              </div>
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                  <div
+                    class="service-item d-flex position-relative text-center h-100"
+                  >
+                    <img class="bg-img" src="img/webpage_bg1.jpg" alt="Service" />
+                    <div class="service-text p-5">
+                      <i class="fas fa-home mb-4 fa-4x"></i>
+                      <h3 class="mb-3">Main concepts</h3>
+                      <p class="mb-4">
+                        Master the core concepts, working principles, and application scenarios of large language models,
+                        perfect for beginners to get started.
+                      </p>
+                      <a class="btn" href="about llm.html">
+                        <i class="fa fa-plus me-3"></i>Learn More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                  <div
+                    class="service-item d-flex position-relative text-center h-100"
+                  >
+                    <img class="bg-img" src="img/webpage_bg2.jpg" alt="Service" />
+                    <div class="service-text p-5">
+                      <i class="fas fa-cogs mb-4 fa-4x"></i>
+                      <h3 class="mb-3">News & Research</h3>
+                      <p class="mb-4">
+                        Access the latest research advancements,
+                        industry trends, and objective analysis of controversial topics in the AI field.
+                      </p>
+                      <a class="btn" href="Relevant News.html">
+                        <i class="fa fa-plus me-3"></i>Learn More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                  <div
+                    class="service-item d-flex position-relative text-center h-100"
+                  >
+                    <img class="bg-img" src="img/webpage_bg3.jpg" alt="Service" />
+                    <div class="service-text p-5">
+                      <i class="fas fa-tools mb-4 fa-4x"></i>
+                      <h3 class="mb-3">Resources</h3>
+                      <p class="mb-4">
+                        Discover learning resources, open-source projects,
+                        and practical tools to help you deeply engage in AI technology practice.
+                      </p>
+                      <a class="btn" href="LLMsource.html">
+                        <i class="fa fa-plus me-3"></i>Learn More
+                      </a>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 2.三个入口 End -->    
+         
+        
+<!-- 3.Video Embed Start -->
+<section class="video-section">
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div
+        class="text-center mx-auto mb-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+        style="max-width: 700px"
+      >
+        <div class="section-title">
+          <h6>Technology Video Introduction</h6>
+          <h2 class="mb-4">
+            Discover LLM in 7 Minutes
+          </h2>
+        </div>
+      </div>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LPZh9BOjkQs?si=1B-vlzsgUQqU0llI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Video Embed End -->
+      
+
+
+    
+    <!-- 4.About History Start -->
+<section>
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <div class="section-title">
+            <h6>About History</h6>
+            <h2 class="mb-4">
+              Key Milestones in the Development of LLMs
+            </h2>
+          </div>
+          <p>
+            1960s: Joseph Weizenbaum developed ELIZA, an early chatbot using pattern matching to simulate conversation.
+          </p>
+          <p class="mb-3">
+            1990s: RNNs were created for sequence data but had limitations with long sequences, leading to LSTM networks.
+          </p>
+          <p class="mb-3">
+            2014: GRUs emerged as a simplified version of LSTMs, while attention mechanisms enhanced focus on key information.
+          </p>
+          <p class="mb-3">
+            2017: Transformers revolutionized text processing with parallel analysis, improving context understanding.
+          </p>
+          <p class="mb-3">
+            Since 2018: BERT and GPT models have advanced natural language processing through bidirectional information flow.
+          </p>
+          <div class="d-flex align-items-center mb-4">
+            <div
+              class="d-flex flex-shrink-0 align-items-center justify-content-center txt-primary"
+              style="width: 80px; height: 80px; border: 5px solid #d31e26"
+            >
+              <h5 class="display-6 fw-bold">58</h5>
+            </div>
+            <div class="ps-4">
+              <h4>Years of</h4>
+              <h4 class="mb-0">LLM Evolution</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+          <img
+            class="img-fluid rounded"
+            src="img/about.jpg"
+            alt="LLM Evolution Tree"
+            style="width: 100%; height: auto;"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 4.About History End -->
+
+
+   <!-- 5.scenario Start -->
+   <section>
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="text-center mx-auto mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 700px"
+        >
+          <div class="section-title">
+            <h6 class="txt-primary"> Explore Application Scenarios</h6>
+            <h2 class="mb-4">What Can Large Language Models Help Humans Achieve?</h2>
+          </div>
+        </div>
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="h-100 d-flex align-items-center shadow-sm p-4">
+              <i class="fas fa-drafting-compass fa-3x txt-primary me-4"></i>
+              <div>
+                <h4 class="mb-3">Customer Service</h4>
+                <p class="mb-0">
+                  When you need answers from customer service without the wait, LLMs provide instant responses, available 24/7.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="h-100 d-flex align-items-center shadow-sm p-4">
+              <i class="fas fa-laptop-code fa-3x txt-primary me-4"></i>
+              <div>
+                <h4 class="mb-3">Writing Assistance</h4>
+                <p class="mb-0">
+                  Struggling to start a report or an article? LLMs can generate content and even check for grammar and spelling errors.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="h-100 d-flex align-items-center shadow-sm p-4">
+              <i class="fas fa-brush fa-3x txt-primary me-4"></i>
+              <div>
+                <h4 class="mb-3">Data Analysis</h4>
+                <p class="mb-0">
+                  For business professionals and researchers, LLMs can quickly parse complex data and reports, offering insights that would otherwise be difficult to extract.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="h-100 d-flex align-items-center shadow-sm p-4">
+              <i class="fas fa-hard-hat fa-3x txt-primary me-4"></i>
+              <div>
+                <h4 class="mb-3">Smart Search</h4>
+                <p class="mb-0">
+                  Often, online searches fail to yield the desired results. 
+                  LLMs can understand your queries more accurately and provide more relevant responses.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="h-100 d-flex align-items-center shadow-sm p-4">
+              <i class="fas fa-recycle fa-3x txt-primary me-4"></i>
+              <div>
+                <h4 class="mb-3">Learning and Education</h4>
+                <p class="mb-0">
+                  LLMs can serve as educational aids, helping both students and educators to learn more effectively.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="h-100 d-flex align-items-center shadow-sm p-4">
+              <i class="fas fa-ruler-combined fa-3x txt-primary me-4"></i>
+              <div>
+                <h4 class="mb-3">Medical Diagnosis</h4>
+                <p class="mb-0">
+                In the medical field, LLMs can assist doctors by interpreting medical records and test results, even offering preliminary diagnostic suggestions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 5.Service End -->
+
+  <!-- 6.Use Start -->
+<section class="team-section">
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px">
+        <div class="section-title">
+          <h6>Explore Application Scenarios</h6>
+          <h2 class="mb-4">
+            How to Utilize Large Language Models Effectively?
+          </h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="team-item position-relative mx-auto">
+            <div class="position-relative">
+              <img
+                class="img-fluid rounded"
+                src="img/use-1.jpg"
+                alt="Architecture Team Diagram"
+                style="display: block; margin: 0 auto; max-width: 100%; height: auto; transition: transform 0.3s ease-in-out; border: 2px solid transparent;"
+                onmouseover="this.style.transform='scale(1.05)'; this.style.border='2px solid #d31e26'"
+                onmouseout="this.style.transform='scale(1)'; this.style.border='2px solid transparent'"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 6.Use End -->
+       
+
+    <!-- 7.Subscribe Start -->
+    <section>
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="section-title">
+                <h6>Subscription</h6>
+                <h2 class="mb-4">
+                  Get the Latest AI News
+                </h2>
+              </div>
+              <p class="mb-4">
+                Subscribe to our newsletter to receive weekly curated AI research updates,
+                application case studies, and industry trends."
+              </p>
+              <div class="row g-4">
+                <div class="col-12">
+                  <div class="d-flex">
+                    <div
+                      class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
+                      style="width: 65px; height: 65px"
+                    >
+                      <i class="fa fa-2x fa-phone-alt txt-primary"></i>
+                    </div>
+                    <div class="ms-4">
+                      <p class="mb-2">Call Us</p>
+                      <h3 class="mb-0">+012 345 6789</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="d-flex">
+                    <div
+                      class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
+                      style="width: 65px; height: 65px"
+                    >
+                      <i class="fa fa-2x fa-envelope-open txt-primary"></i>
+                    </div>
+                    <div class="ms-4">
+                      <p class="mb-2">Mail Us</p>
+                      <h3 class="mb-0">24465992@life.hkbu.edu.hk</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <form id="appointmentForm">
+                <div class="row g-3">
+                  <div class="col-12 col-sm-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Name"
+                      style="height: 55px"
+                      required
+                    />
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your Email"
+                      style="height: 55px"
+                      required
+                    />
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Mobile"
+                      style="height: 55px"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-12 col-sm-6">
+                    <select class="form-select" style="height: 55px" required>
+                      <option value="" disabled selected>Choose Service</option>
+                      <option value="Interior">Weekly</option>
+                      <option value="Architecture">Bi-weekly</option>
+                      <option value="Design">Monthly</option>
+                    </select>
+                  </div>
+
+                  <div class="col-12">
+                    <textarea
+                      class="form-control"
+                      rows="7"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button
+                      type="submit"
+                      class="btn btn-inline-body w-100 py-3"
+                      id="submitBtn"
+                    >
+                    Subscribe
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe End -->
+
+    <!-- Success Modal -->
+    <div
+      class="modal fade"
+      id="successModal"
+      tabindex="-1"
+      aria-labelledby="successModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="successModalLabel">
+              Appointment Success
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Your appointment has been successfully booked. We will contact you
+            soon!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-inline-body"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Footer Start -->
+  <section>
+    <div
+      class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row footer-content">
+          <div class="col-lg-4 col-md-6">
+            <h3 class="text-light mb-4">About Us</h3>
+            <p class="mb-2 text-light">
+              We are students of the MSc in AIDM program, and the information about our group members is as follows:
+              <br/>
+              GUO Bao, 24462527
+              <br/>
+              WU Qiong, 24465992
+              <br/>
+              LIU Jiwu, 24448923
+              <br/>
+              XIE Yi, 24462640
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-6 text-center text-md-start mb-3 mb-md-0 text-light"
+            >
+              &copy; <a href="#">AIDM7350 Group Project</a>
+            </div>
+            <div class="col-md-6 text-center text-light text-md-end">
+               <a href="#">Back to Top</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-inline-body btn-lg-square back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+
+    <!-- Font Awesome Icon -->
+    <script
+      src="https://kit.fontawesome.com/6259f20fe9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Load the jQuery library, version 3.4.1 -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- Load the compiled Bootstrap JavaScript library -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Load the WOW.js library for revealing animations when scrolling -->
+    <script src="lib/wow/wow.min.js"></script>
+
+    <!-- Load the Easing library to add custom easing effects to animations -->
+    <script src="lib/easing/easing.min.js"></script>
+
+    <!-- Load the Waypoints library to trigger functions when you scroll to a certain point -->
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Load the CounterUp library for animated counting numbers -->
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Load the Owl Carousel library for creating responsive carousel sliders -->
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Load the Moment.js library for date and time manipulation -->
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+
+    <!-- Load the Moment Timezone library for handling time zone data with Moment.js -->
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+
+    <!-- Load the Tempus Dominus Bootstrap 4 library for creating date-time pickers -->
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById("appointmentForm");
+
+        form.addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent page reload
+
+          // Validate form inputs if necessary (optional)
+          // Example: Check if all required fields are filled
+          if (!form.checkValidity()) {
+            form.reportValidity();
+            return;
+          }
+
+          // Display the success modal
+          const successModal = new bootstrap.Modal(
+            document.getElementById("successModal")
+          );
+          successModal.show();
+
+          // Clear the form (optional)
+          form.reset();
+        });
+      });
+    </script>
+
+    <!-- Custom Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

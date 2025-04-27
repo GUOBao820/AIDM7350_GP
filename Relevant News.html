@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>AIDM7350 Group Project</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- logo -->
+    <link href="img/logo.jpg" rel="icon" />
+
+    <!-- Latest Font Awesome CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border position-relative txt-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      ></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-3">
+            <a class="text-white px-2" href="tel:+852 64816733"
+              ><i class="fa fa-phone-alt txt-primary me-2"></i>+852 64816733</a
+            >
+            <a class="text-white px-2" href="mailto:24462527@life.hkbu.edu.hk"
+              ><i class="fa fa-envelope-open txt-primary me-2"></i
+              >24462527@life.hkbu.edu.hk</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center">
+            <a class="btn btn-sm-square btn-outline-body me-1" href="https://www.facebook.com/HongKongBaptistUniversity"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-sm-square btn-outline-body me-1" href="https://www.linkedin.com/school/hong-kong-baptist-university/posts/?feedView=all"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-sm-square btn-outline-body me-1" href="https://x.com/hkbaptistu">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/hkbaptistu/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+        <img class="me-3" src="img/logo.png" alt="logo" />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Home</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="index.html" class="dropdown-item">Home</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Main concepts</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="about llm.html" class="dropdown-item">About LLM</a>
+              <a href="about chatbot.html" class="dropdown-item">About Chatbot</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >News & Research</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="Relevant News.html" class="dropdown-item active">Relevant News</a>
+              <a href="Research Findings.html" class="dropdown-item">Research Findings</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Resources</a
+            >
+            <div class="dropdown-menu border-0 m-0">
+              <a href="LLMsource.html" class="dropdown-item">Resources</a>
+            </div>
+          </div>
+        </div>
+        <a
+          href="chatbottest.html"
+          class="btn btn-outline-body py-2 px-4"
+          style="margin-left: 26px"
+          >Chatbots</a
+        >
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-header py-5 mb-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <h1 class="display-1 text-white animated slideInDown">Relevant News</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb text-uppercase mb-0">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item txt-primary" aria-current="page">
+              News & Research
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Relevant News Start -->
+    <section>
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div
+            class="text-center mx-auto mb-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="max-width: 700px"
+          >
+          <div class="section-title">
+            <h6>Relevant News</h6>
+            <h2 class="mb-4">
+              Domestic and International Trends
+            </h2>
+          </div>
+          </div>
+          <div class="row g-4">
+            <!-- News Card 1 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="blog-item d-flex flex-column position-relative h-100">
+                <img
+                  class="img-fluid mb-4"
+                  src="img/News1.jpg"
+                  alt="Blog Image"
+                />
+                <div class="blog-text p-4">
+                  <div class="mb-3">
+                    <span class="badge bg-danger">News</span>
+                    <span class="ms-3 text-muted">2025-04-22</span>
+                  </div>
+                  <h3 class="mb-3">Chat with HKGAI V1</h3>
+                  <p class="mb-4">
+                    HKUST Introduces First Homegrown AI Tool to Drive Innovative Education
+                  </p>
+                  <a class="btn btn-outline-body" href="https://hkust.edu.hk/news/chat-hkgai-v1-hkust-introduces-first-homegrown-ai-tool-drive-innovative-education">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- News Card 2 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="blog-item d-flex flex-column position-relative h-100">
+                <img
+                  class="img-fluid mb-4"
+                  src="img/News2.jpg"
+                  alt="Blog Image"
+                />
+                <div class="blog-text p-4">
+                  <div class="mb-3">
+                    <span class="badge bg-danger">News</span>
+                    <span class="ms-3 text-muted">2024-10-20</span>
+                  </div>
+                  <h3 class="mb-3">The Age of All AI</h3>
+                  <p class="mb-4">
+                    C.ai, Chatbot's Service Platform, Combines AI to Empower Enterprises.
+                  </p>
+                  <a class="btn btn-outline-body" href="https://www.gss.com.tw/eis/285-eis115/4202-ai-chatbot-LLM">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- News Card 3 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="blog-item d-flex flex-column position-relative h-100">
+                <img
+                  class="img-fluid mb-4"
+                  src="img/News3.jpg"
+                  alt="Blog Image"
+                />
+                <div class="blog-text p-4">
+                  <div class="mb-3">
+                    <span class="badge bg-danger">News</span>
+                    <span class="ms-3 text-muted">2025-4-19</span>
+                  </div>
+                  <h3 class="mb-3">Competitive Dynamics of Open AI and Google</h3>
+                  <p class="mb-4">
+                    In April 2025, OpenAI launched new models such as GPT-4.1. Google also released models like Gemini 2.5 Flash.
+                  </p>
+                  <a class="btn btn-outline-body" href="https://mashable.com/article/april-19-artificial-intelligence-chat-gpt-gemini-ai-news">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- News Card 4 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="blog-item d-flex flex-column position-relative h-100">
+                <img
+                  class="img-fluid mb-4"
+                  src="img/News4.jpg"
+                  alt="Blog Image"
+                />
+                <div class="blog-text p-4">
+                  <div class="mb-3">
+                    <span class="badge bg-danger">News</span>
+                    <span class="ms-3 text-muted">2025-04-14</span>
+                  </div>
+                  <h3 class="mb-3">Controversy over Meta's open-source large model</h3>
+                  <p class="mb-4">
+                    In April 2025, Meta's open-source large model Llama-4 Maverick plummeted in benchmark tests, dropping from 2nd place to 32nd place.
+                  </p>
+                  <a class="btn btn-outline-body" href="https://www.eet-china.com/mp/a396255.html">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- News Card 5 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="blog-item d-flex flex-column position-relative h-100">
+                <img
+                  class="img-fluid mb-4"
+                  src="img/News5.jpg"
+                  alt="Blog Image"
+                />
+                <div class="blog-text p-4">
+                  <div class="mb-3">
+                    <span class="badge bg-danger">News</span>
+                    <span class="ms-3 text-muted">2025-02-01</span>
+                  </div>
+                  <h3 class="mb-3">DeepSeek: What lies under the bonnet of the new AI chatbot?</h3>
+                  <p class="mb-4">
+                    Tumbling stock market values and wild claims have accompanied the release of a new AI chatbot by a small Chinese company. What makes it so different?
+                  </p>
+                  <a class="btn btn-outline-body" href="https://www.bbc.com/future/article/20250131-what-does-deepseeks-new-app-mean-for-the-future-of-ai">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- News Card 6 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="blog-item d-flex flex-column position-relative h-100">
+                <img
+                  class="img-fluid mb-4"
+                  src="img/News6.jpg"
+                  alt="Blog Image"
+                />
+                <div class="blog-text p-4">
+                  <div class="mb-3">
+                    <span class="badge bg-danger">News</span>
+                    <span class="ms-3 text-muted">2025-04-16</span>
+                  </div>
+                  <h3 class="mb-3">The National Supercomputing Internet Platform launches the ultra-long text model</h3>
+                  <p class="mb-4">
+                    So far, a total of 5 models from three domestic model manufacturers have provided services on the national supercomputing Internet platform.
+                  </p>
+                  <a class="btn btn-outline-body" href="https://news.qq.com/rain/a/20250416A072KF00">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Relevant News End -->
+
+  <!-- Footer Start -->
+    <section>
+      <div
+        class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5">
+          <div class="row footer-content">
+            <div class="col-lg-4 col-md-6">
+              <h3 class="text-light mb-4">About Us</h3>
+              <p class="mb-2 text-light">
+                We are students of the MSc in AIDM program, and the information about our group members is as follows:
+                <br/>
+                GUO Bao, 24462527
+                <br/>
+                WU Qiong, 24465992
+                <br/>
+                LIU Jiwu, 24448923
+                <br/>
+                XIE Yi, 24462640
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid copyright">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-md-6 text-center text-md-start mb-3 mb-md-0 text-light"
+              >
+                &copy; <a href="#">AIDM7350 Group Project</a>
+              </div>
+              <div class="col-md-6 text-center text-light text-md-end">
+                 <a href="#">Back to Top</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-inline-body btn-lg-square back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+
+    <!-- Font Awesome Icon -->
+    <script
+      src="https://kit.fontawesome.com/6259f20fe9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Load the jQuery library, version 3.4.1 -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- Load the compiled Bootstrap JavaScript library -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Load the WOW.js library for revealing animations when scrolling -->
+    <script src="lib/wow/wow.min.js"></script>
+
+    <!-- Load the Easing library to add custom easing effects to animations -->
+    <script src="lib/easing/easing.min.js"></script>
+
+    <!-- Load the Waypoints library to trigger functions when you scroll to a certain point -->
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Load the CounterUp library for animated counting numbers -->
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Load the Owl Carousel library for creating responsive carousel sliders -->
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Load the Moment.js library for date and time manipulation -->
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+
+    <!-- Load the Moment Timezone library for handling time zone data with Moment.js -->
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+
+    <!-- Load the Tempus Dominus Bootstrap 4 library for creating date-time pickers -->
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
